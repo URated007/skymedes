@@ -1,0 +1,28 @@
+[30-Jan-2025 16:58:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 14
+[30-Jan-2025 16:58:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 15
+[30-Jan-2025 16:58:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 16
+[30-Jan-2025 16:58:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 17
+[30-Jan-2025 16:59:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 14
+[30-Jan-2025 16:59:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 15
+[30-Jan-2025 16:59:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 16
+[30-Jan-2025 16:59:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 17
+[30-Jan-2025 17:36:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 14
+[30-Jan-2025 17:36:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 15
+[30-Jan-2025 17:36:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 16
+[30-Jan-2025 17:36:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 17
+[30-Jan-2025 17:37:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 14
+[30-Jan-2025 17:37:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 15
+[30-Jan-2025 17:37:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 16
+[30-Jan-2025 17:37:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/skymed/public_html/skymedes.com/search_plan.php on line 17
+[30-Jan-2025 17:47:25 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/skymed/public_html/skymedes.com/search_plan.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/skymed/public_html/skymedes.com/search_plan.php on line 51
+[30-Jan-2025 17:48:09 UTC] PHP Warning:  Array to string conversion in /home/skymed/public_html/skymedes.com/search_plan.php on line 51
+[31-Jan-2025 19:34:52 UTC] PHP Warning:  Undefined array key "subject" in /home/skymed/public_html/skymedes.com/send_mail.php on line 5
+[31-Jan-2025 19:34:52 UTC] PHP Warning:  Undefined array key "message" in /home/skymed/public_html/skymedes.com/send_mail.php on line 6
+[31-Jan-2025 19:38:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: mail() expects at least 3 arguments, 2 given in /home/skymed/public_html/skymedes.com/send_mail.php:7
+Stack trace:
+#0 /home/skymed/public_html/skymedes.com/send_mail.php(7): mail('rwahaj607@gmail...', 'From: wahaj@ura...')
+#1 {main}
+  thrown in /home/skymed/public_html/skymedes.com/send_mail.php on line 7

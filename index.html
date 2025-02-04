@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--<link rel="preload" as="document" href="https://skymedessentials.com/medical-evacuation/">-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/Favicon.webp">
+    <link rel="shortcut icon" href="assets/images/Favicon.webp">
+    <link rel="stylesheet" href="assets/css/style.css?v60">
+    <link rel="preload" as="image" href="https://skymedes.com/assets/images/bannerimg.webp" type="image/webp">
+    <title>Medical Evacuations - SkyMed Essentials</title>
+    
+<!-- Google Tag Manager -->
+<script defer>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M7BZFKWB');</script>
+<!-- End Google Tag Manager -->
+<script defer>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DKSCCMJ34Y');
+</script>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7BZFKWB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Popups -->
+<div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+<div class="popup" id="popup">
+    <div id="videoContainer"></div>
+    <button class="close-btn" onclick="closePopup()">X</button>
+</div>
+
+<div class="overlay" id="overlaypopup" onclick="closePdfPopup()"></div>
+
+<div class="popup" id="pdfPopup">
+    <div id="pdfContainer">
+        <iframe id="pdfViewer" width="100%" height="100%" loading="lazy" src="https://docs.google.com/viewer?url=https://skymedessentials.com/wp-content/uploads/2024/06/SkyMed-Essentials-MSA-edit-2024.pdf&embedded=true">
+        </iframe>
+    </div>
+    <button class="close-btn" onclick="closePdfPopup()">X</button>
+</div>
+<!-- Popup End -->
+
+    <div class="main-container">
+        <!-- Header Start -->
+        <header class="main-header">
+            <div class="header-container">
+                <div class="img-container">
+                    <a href="/index.html"><img class="logoimg" loading="lazy" src="assets/images/mainlogo.webp"
+                            alt="SkyMed Essentials Logo"></a>
+                </div>
+                <div class="btn-container">
+                    <a href="#calculator" class="calc-btn">Travel Calculator</a>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+        <div class="body-container">
+            <div class="section1">
+                <div class="text-container">
+                    <h1 class="half-bold half-color main-heading for-desktop">Travel Protection That <br><span>Brings
+                            You Home
+                            Safely!</span></h1>
+                    <h1 class="half-bold main-heading for-mobile">Travel Protection That <br><span>Brings You Home
+                            Safely!</span></h1>
+                    <p class="half-bold banner-para">
+                        SkyMed Essentials provides protection for Emergency Medical Evacuations, hospital transfers, and
+                        return transportation within North America & the Caribbean, including your family. With no
+                        co-pays, no deductibles, and protection for your entire family, you also have the freedom to
+                        <span>choose where you want to be treated.</span>
+                    </p>
+                    <div class="price-container">
+                        <p class="pricelabel half-color"><span>A Private Jet When You Need The Most!</span></p>
+                        <p class="main-price">$19<sub>. 50/Night</sub><sup>Until April 1st</sup></p>
+                    </div>
+                    <a href="#calculator" class="protected-btn">Get Protected Now</a>
+                </div>
+                <div class="bg-img lazy-load" data-bg="https://skymedes.com/assets/images/bannerimg.webp">
+                    <img src="/assets/images/mobilebannerimg.webp"  loading="lazy" height="220px" class="imgformobile">
+                </div>
+            </div>
+            <div class="section2">
+                <div class="text-container">
+                    <h1 class="half-bold half-color review-heading">What <span>Travelers </span> Say</h1>
+                </div>
+                <div class="reviewssec">
+                    <div class="innerreview">
+
+                        <div class="elfsight-app-a41dc0fe-1529-4ae6-8050-bd473241e5bb" data-elfsight-app-lazy></div>
+                    </div>
+                </div>
+            </div>
+            <div class="section3" id="calculator">
+                <div class="innercontainer">
+                    <div class="calcdiv">
+                        <div class="innercalc">
+                            <div class="calcheader">
+                                <p class="main-price">$19<sub>. 50/Night</sub><sup>Until April 1st</sup></p>
+                            </div>
+                            <div class="calc-body">
+                                <form method="post" id="plan-search-api-form">
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <label for="countriesVisited">Destination<span class="required">*</span></label>
+                                            <select id="countriesVisited" name="countriesVisited[]" required>
+                                                <option value="" class="countriesVisited-opt-1" disabled selected>Select destination</option>
+                                                <option value="US">United States</option>
+                                                <option value="MX">Mexico</option>
+                                                <option value="CA">Canada</option>
+                                                <option value="AI">Anguilla</option>
+                                                <option value="AG">Antigua & Barbuda</option>
+                                                <option value="AW">Aruba</option>
+                                                <option value="BS">Bahamas</option>
+                                                <option value="BB">Barbados</option>
+                                                <option value="BM">Bermuda</option>
+                                                <option value="BQ">Bonaire, Sint Eustatius</option>
+                                                <option value="VG">British Virgin Islands</option>
+                                                <option value="KY">Cayman Islands</option>
+                                                <option value="CW">Curacao</option>
+                                                <option value="CU">Cuba</option>
+                                                <option value="DM">Dominica</option>
+                                                <option value="DO">Dominican Republic</option>
+                                                <option value="GD">Grenada</option>
+                                                <option value="GP">Guadeloupe</option>
+                                                <option value="HT">Haiti</option>
+                                                <option value="JM">Jamaica</option>
+                                                <option value="MQ">Martinique</option>
+                                                <option value="PR">Puerto Rico</option>
+                                                <option value="BL">Saint Barthelemy</option>
+                                                <option value="KN">Saint Kitts and Nevis</option>
+                                                <option value="LC">Saint Lucia</option>
+                                                <option value="SX">Saint Martin</option>
+                                                <option value="VC">Saint Vincent and Grenadines</option>
+                                                <option value="TT">Trinidad & Tobago</option>
+                                                <option value="TC">Turks & Caicos Islands</option>
+                                                <option value="VI">US Virgin Islands</option>
+                                            </select>
+                                        </div>
+                                        <div class="col">
+                                            <label for="citizenship">Resident<span class="required">*</span></label>
+                                            <select id="citizenship" name="citizenship" required>
+                                                <option value="" class="countriesVisited-opt-1" disabled selected>Select resident</option>
+                                                <option value="US">United States</option>
+                                                <option value="CA">Canada</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <label for="coverageStart">Start Date<span class="required">*</span></label>
+                                            <input type="date" id="coverageStart" name="coverage_start" placeholder="Select date" required>
+                                            <p class="tdm-text-styling"><b>Note:</b> 3-night minimum</p>
+                                        </div>
+                                        <div class="col">
+                                            <label for="coverageEnd">End Date<span class="required">*</span></label>
+                                            <input type="date" id="coverageEnd" name="coverage_end" placeholder="Select date" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-row checkboxformrow">
+                                        <div class="form-row">
+                                            <div class="col checkbox-sa">
+                                                <input type="checkbox" id="checkboxSA" name="checkboxSA" required>
+                                                <label>I have read and agree to the <span id="SA-services-agreement" onclick="openPdfPopup()">Services Agreement</span></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-btn">
+                                            <input type="submit" name="search_plan" value="Calculate" id="calculate-button">
+                                        </div>
+                                    </div>
+                                    <div class="form-row skymed-plan-search-result">
+                                        <div class="col">
+                                            <div class="plan-details"></div>
+                                            <button type="button" id="calculate-again" class="calculate-again-submit-application">Calculate Again </button>
+
+
+                                        </div>
+                                        <div class="col">
+                                            <a href="https://skymedessentials.com/submit-application" id="proceed-to-checkout-button">Proceed to Checkout <i class="fas fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="iconlistdiv">
+                        <h1 class="half-bold half-color review-heading for-mobile">Emergency Travel <span>Services  Included:</span> </h1>
+                        <div class="iconlist">
+                            <img src="assets/images/plane.webp" loading="lazy" alt="plane"> <span class="icontext">Air Evacuation
+                                Home</span>
+                        </div>
+                        <div class="iconlist">
+                            <img src="assets/images/car.webp"  loading="lazy" alt="car"> <span class="icontext">Commercial Medical
+                                Escort Flights</span>
+                        </div>
+                        <div class="iconlist">
+                            <img src="assets/images/family.webp" loading="lazy" alt="family"> <span class="icontext">Companion & Minor
+                                Children Transportation</span>
+                        </div>
+                        <div class="iconlist">
+                            <img src="assets/images/planetwo.webp" loading="lazy" alt="planetwo"> <span class="icontext">Visitor
+                                Transportation to Bedside</span>
+                        </div>
+                        <div class="iconlist">
+                            <img src="assets/images/hospital.webp" loading="lazy" alt="hospital"> <span class="icontext">Physical Remains
+                                Return</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section4">
+                <div class="text-container">
+                    <h1 class="half-bold half-color review-heading">Frequently Asked <span>Questions </span></h1>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item active">
+                        <div class="accordion-header">
+                            <span class="icon">-</span>
+                            What does SkyMed Essentials cover?
+
+                        </div>
+                        <div class="accordion-content" style="max-height: 200px;">
+                            SkyMed Essentials covers emergency medical evacuations, hospital transfers, and return
+                            transportation within North America and the Caribbean. It also includes coverage for your
+                            entire family with no co-pays, no deductibles, and the freedom to choose where to be
+                            treated.
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <span class="icon">+</span>
+                            How is SkyMed Essentials different from travel insurance?
+
+                        </div>
+                        <div class="accordion-content">
+                            SkyMed Essentials focuses on emergency medical transportation and repatriation, while travel
+                            insurance typically covers trip cancellations, delays, and medical expenses.
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <span class="icon">+</span>
+                            Are there any age restrictions for coverage?
+
+                        </div>
+                        <div class="accordion-content">
+                            No, SkyMed Essentials does not have age restrictions for its coverage, making it accessible
+                            to travelers of all ages.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <span class="icon">+</span>
+                            What happens if I need to use SkyMed Essentials?
+
+                        </div>
+                        <div class="accordion-content">
+                            Simply call the 24/7 emergency hotline. SkyMed will coordinate your medical transportation
+                            and other covered services immediately.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <span class="icon">+</span>
+                            Can I add my family to the plan?
+
+                        </div>
+                        <div class="accordion-content">
+                            Yes, you can add family members to your plan for an additional fee to ensure they are also
+                            covered.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section5">
+                <div class="text-container">
+                    <h1 class="half-bold half-color review-heading for-desktop"><span>About </span>SkyMed Essentials
+                    </h1>
+                    <p class="half-bold banner-para for-desktop">
+                        Established in 1989, SkyMed has delivered reliable emergency medical evacuation services for
+                        over three decades. Serving thousands of members across North America and the Caribbean, we
+                        provide comprehensive protection with no co-pays, no deductibles, and support for your entire
+                        family, offering unmatched peace of mind. With 24/7 assistance, experienced professionals, and a
+                        commitment to safety, we ensure you’re covered wherever you travel. Whether it’s an unexpected
+                        accident or a medical emergency, SkyMed is your trusted partner, ready to bring you home when
+                        you need it most. Experience the ultimate in protection and care with SkyMed.
+                    </p>
+                    <p class="half-bold banner-para for-mobile">
+                    Established in 1989, SkyMed has delivered reliable emergency medical evacuation services for over
+                    three decades. Serving thousands of members across North America and the Caribbean, we provide
+                    comprehensive protection with no co-pays, no deductibles, and support for your entire family,
+                    offering unmatched peace of mind.
+                    </p>
+                </div>
+                <div class="videothumb" onclick="openPopup()">
+                    <h1 class="half-bold half-color review-heading for-mobile"><span>About </span>SkyMed Essentials</h1>
+                    <img src="assets/images/thumbnail.webp" loading="lazy"
+                        class="videothumbnail" alt="videothumbnail">
+                    <img class="playiconimg" loading="lazy" src="assets/images/playicon.png" alt="playicon">
+                </div>
+            </div>
+            <div class="section6">
+                <div class="innersectionform">
+                    <div class="text-container">
+                    <h1 class="half-bold review-heading">Still <span>Thinking? </span></h1>
+                    <p class="half-bold banner-para">
+                        What if we could offer you travel services for <span>less than</span> the prices you find with<span> online travel agents?</span> Sound Interesting
+                    </p>
+                    <form id="emailForm" action="send_mail.php" method="post">
+                        <input type="email" placeholder="Your email address here" id="email" name="email" required>
+                        <button type="submit" id="email-subscription">Save Now</button>
+                        
+                    </form>
+                    <p id="responseMessage" style="display:none;">Our team will reach out to you in the next 24 hours.</p>
+                     </div>
+                </div>
+            </div>
+            <div class="section7">
+                <div class="innersection7">
+                    <div class="contactinfo">
+                        <div class="inform">
+                            <img src="assets/images/call.png" loading="lazy" alt="phone-icon">
+                            <a href="tel:+14809465188">+1 480-946-5188</a>
+                        </div>
+                        <div class="inform">
+                            <img src="assets/images/mail.png" loading="lazy" alt="phone-icon">
+                            <a href="mailto:info@skymed.com">info@skymed.com</a>
+                        </div>
+                        <div class="inform">
+                            <img src="assets/images/mappin.png" loading="lazy" alt="phone-icon">
+                            <a>9089 E Bahia Dr Suite 100 Scottsdale AZ 85260</a>
+                        </div>
+                    </div>
+                    <div class="uratedcopyright">
+                        <p>Copyright &copy; <span id="current-year"></span> SkyMed Essentials | All Rights Reserved.
+                            Website success is generated by <a style="color: #000;font-weight: 700" target="_blank"
+                                href="https://urated.com/">URATED</a></p>
+                    </div>
+                    <div style="position: absolute;" class="elfsight-app-bd9854d5-3aba-45f9-80e3-738cd627198a"
+                        data-elfsight-app-lazy></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <iframe src="https://skymedessentials.com/simple-calculator/" allow="forms; same-origin;" width="100%" height="400px"></iframe> -->
+
+
+
+    <!--<div id="page">-->
+    <!--  <a href="page2.html" id="https://skymedessentials.com/medical-evacuation/">Go second page</a>-->
+    <!--</div>-->
+    <!--<div id="page2">-->
+    <!--</div>-->
+
+    <script src="assets/js/myjs.js?v11" defer></script>
+    <script src="https://static.elfsight.com/platform/platform.js" delay></script>
+   <script>
+    // Event listener to automatically set coverage end date based on the start date
+    document.getElementById("coverageStart").addEventListener("change", function() {
+        var startDate = new Date(this.value);
+        var endDate = new Date(startDate);
+        endDate.setDate(endDate.getDate() + 3); // Add 3 days to the start date
+        document.getElementById("coverageEnd").value = endDate.toISOString().split('T')[0];
+    });
+
+    // Form submission event listener
+    document.getElementById("plan-search-api-form").addEventListener("submit", function(event) {
+        event.preventDefault();  // Prevent default form submission
+        
+        // Get the values from the form inputs
+        var countriesVisited = Array.from(document.getElementById("countriesVisited").selectedOptions).map(option => option.value);
+        var citizenship = document.getElementById("citizenship").value;
+        var coverageStart = document.getElementById("coverageStart").value;
+        var coverageEnd = document.getElementById("coverageEnd").value;
+        var checkboxSA = document.getElementById("checkboxSA").checked;
+
+        // Check if the checkbox is checked
+        if (!checkboxSA) {
+            alert("You must agree to the Services Agreement.");
+            return;
+        }
+
+        // Prepare data to send in the request
+        var formData = {
+            countriesVisited: countriesVisited,
+            citizenship: citizenship,
+            coverageStart: coverageStart,
+            coverageEnd: coverageEnd
+        };
+
+        // Send the data to the PHP server using fetch API
+        fetch('search_plan.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(formData)
+        })
+        .then(response => response.json())  // Parse the JSON response
+        .then(data => {
+            console.log('API Response:', data);  // Debugging the response
+
+            if (data.success && data.planOptions && data.planOptions.length > 0) {
+                // Assuming the response contains at least one plan option
+                var plan = data.planOptions[0];  // Get the first plan option
+                var planPrice = plan.PlanPrice;
+                var planName = plan.PlanName;
+                var planStart = plan.PlanStart;
+                var planEnd = plan.PlanEnd;
+                var planId = plan.PlanId; 
+                var citizenship = formData.citizenship;
+                var countriesVisited = JSON.stringify(formData.countriesVisited);
+                console.log('Plan Details:', planName, planPrice);  // Debugging the extracted plan data
+
+                // Display plan details in the HTML
+                document.getElementsByClassName("skymed-plan-search-result")[0].style.setProperty('display', 'flex', 'important');
+                document.getElementById("calculate-button").style.display = 'none';
+                var checkoutUrl = `https://skymedessentials.com/submit-application/?coverage_start=${planStart}&coverage_end=${planEnd}&plan_id=${planId}&PlanPrice=${planPrice}&citizenship=${citizenship}&countriesVisited=${encodeURIComponent(countriesVisited)}`;
+                var planDetails = `
+                    <strong> ${planName}: </strong>
+                    <strong>$${planPrice}</strong>  `;
+                document.querySelector(".plan-details").innerHTML = planDetails;
+                 document.getElementById("proceed-to-checkout-button").setAttribute("href", checkoutUrl);
+
+                // Show the result section and hide the calculate button
+                //document.querySelector(".skymed-plan-search-result").classList.remove("hidden");
+                
+            } else {
+                alert("No plan options available.");
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('An error occurred while fetching plan data.');
+        });
+    });
+
+    // Reset the form and hide the result section
+    document.getElementById("calculate-again").addEventListener("click", function() {
+    resetForm(); // Call the reset function when clicked
+});
+
+function resetForm() {
+    // Reset the form fields
+    document.getElementById("plan-search-api-form").reset();
+
+    // Hide the plan search result section
+    document.querySelector(".skymed-plan-search-result").style.display = "none";
+
+    // Show the calculate button again
+    document.getElementById("calculate-button").style.display = "block";
+
+    // Clear plan details
+    document.querySelector(".plan-details").innerHTML = "";
+
+    // Remove the href from the checkout button
+    document.getElementById("proceed-to-checkout-button").removeAttribute("href");
+}
+
+</script>
+
+
+
+<!-- Meta Pixel Code -->
+<script>
+function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1293194828578071');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" loading="lazy" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1293194828578071&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+</body>
+
+</html>
